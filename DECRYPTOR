@@ -1,0 +1,14 @@
+from cryptography.fernet import Fernet #import lib
+
+Encrption_key = input("Enter your key : ") #input of the same key used to encrypt the text
+
+crypter = Fernet(Encrption_key) #set parameters
+
+Encrypted_Text = input("Enter the encrypted text to decrypt :") #ask for the encrypted text
+
+Text_bytes = bytes(Encrypted_Text , "ascii")
+
+decrypt = crypter.decrypt(Text_bytes) #the code decrypts
+
+
+print("Original text  " + str(decrypt)) #print the result
