@@ -79,7 +79,7 @@ def joinClass1 ():
     zoomJoin()
     wait()
     driver.quit()
-    chat()                #writes whatever you want to write tin the chat box || disbvle it if you dont want to do , just put a hash ex #chat()
+    chat()                #writes whatever you want to write in the chat box || disbvle it if you dont want to do , just put a hash ex #chat()
     time.sleep(7200)
     zoomleave()
     
@@ -94,7 +94,7 @@ def joinClass2 ():
     zoomJoin()
     wait()
     driver.quit()
-    chat()           #writes whatever you want to write tin the chat box || disable it if you dont want to do , just put a hash ex #chat()
+    chat()           #writes whatever you want to write in the chat box || disable it if you dont want to do , just put a hash ex #chat()
     time.sleep(7200)
     zoomleave()
     
