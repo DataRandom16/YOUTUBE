@@ -33,4 +33,8 @@ command : pip install schedule
 link : https://pypi.org/project/schedule/
 -----------------------------------------------------------------------------------------------
 
+↣ Chrome Driver 
 
+link : https://chromedriver.storage.googleapis.com/index.html?path=91.0.4472.19/
+
+-----------------------------------------------------------------------------------------------
