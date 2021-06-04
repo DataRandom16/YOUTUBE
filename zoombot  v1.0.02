@@ -59,9 +59,9 @@ def chat ():
     time.sleep(0.6)
     keyboard.write('Pushkar Shah 9229.')
     time.sleep(0.6)
-    keyboard.press_and_release('Alt+h' , do_press=(True) , do_release=(True))
-    time.sleep(0.6)
     keyboard.press_and_release('enter' , do_press=(True) , do_release=(True))
+    time.sleep(0.6)
+    keyboard.press_and_release('Alt+h' , do_press=(True) , do_release=(True))
     time.sleep(1)
       
 def wait ():
