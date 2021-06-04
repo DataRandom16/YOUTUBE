@@ -78,10 +78,11 @@ def joinClass1 ():
     
     zoomJoin()
     wait()
+    driver.quit()
     chat()
     time.sleep(7200)
     zoomleave()
-    driver.quit()
+    
     
 def joinClass2 ():
     driver=webdriver.Chrome()
@@ -92,10 +93,11 @@ def joinClass2 ():
     
     zoomJoin()
     wait()
+    driver.quit()
     chat()
     time.sleep(7200)
     zoomleave()
-    driver.quit()
+    
 
 
 #----------------------------------------------------------------------------------
