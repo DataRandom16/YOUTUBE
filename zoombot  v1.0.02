@@ -1,4 +1,4 @@
-import datetime
+import datetime                   #import libraries.
 from selenium import webdriver
 import keyboard
 import time
@@ -7,8 +7,8 @@ import schedule
 #-----------------------------------------------------------------
 #-----------------------------------------------------------------
 
-Class_1 = ("04:05:00")
-Class_2 = ("06:35:00")
+Class_1 = ("04:05:00") #class time.
+Class_2 = ("06:35:00") #class time.
 
 
 #-----------------------------------------------------------------
@@ -16,30 +16,26 @@ Class_2 = ("06:35:00")
 
 #-----------------------------------------------------------------
 
-Class1_link = ("https://tutoratti.zoom.us/j/83402840947?pwd=MXo4L2lQc0pNRGxFSGloMWZTOXdidz09")
+Class1_link = (" zoom link ") #zoom meeting link. 
 
-Class2_link =("https://tutoratti.zoom.us/j/89601635244?pwd=cHlXRXQvY2x0T2U0U1A1QWs1amordz09")
+Class2_link =(" zoom link ") #zoom meeting link.
 
-
-#-----------------------------------------------------------------
-#-----------------------------------------------------------------
-
-date_logs = datetime.datetime.now()
 
 #-----------------------------------------------------------------
+#-----------------------------------------------------------------
 
-current_day =(date_logs.strftime("%a"))
+date_logs = datetime.datetime.now()      #configure date and time
+
+current_day =(date_logs.strftime("%a"))  #print current day
 print(current_day)
 
-#-----------------------------------------------------------------
-
-current_time =date_logs.strftime("%H:%M:%S")
+current_time =date_logs.strftime("%H:%M:%S") #print current time
 print(current_time)
 
 #-----------------------------------------------------------------
 
 
-
+#define functions
 
 def zoomJoin():
     time.sleep(2)
@@ -124,6 +120,7 @@ schedule.every().friday.at(Class_1).do(joinClass1)
 schedule.every().friday.at(Class_2).do(joinClass2)
 #----------------------------------------------------------------------------------
 
+#run the program
 
 while True :
     schedule.run_pending()
