@@ -6,6 +6,6 @@ Created by : Pushkar Shah
 age : 15
 mail: lightspeed2918@gmail.com
 Tweet : https://twitter.com/Pushkar163
-↣ https://youtube.com/c/Data Random
+↣ https://youtube.com/c/DataRandom
 
 
