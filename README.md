@@ -1,6 +1,6 @@
 This program generates passwords and has a 2 level safty feature 
 
-First release : 4/6/21
+First release : 7/6/21
 
 Created by : Pushkar Shah age : 15
 
