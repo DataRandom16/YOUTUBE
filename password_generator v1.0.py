@@ -1,9 +1,4 @@
-    # -*- coding: utf-8 -*-
-"""
-Created on Sun Jun  6 15:55:15 2021
 
-@author: LENOVO
-"""
 
 
 
