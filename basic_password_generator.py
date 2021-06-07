@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jun  7 10:35:04 2021
 
-@author: LENOVO
-"""
 
 
 import random
