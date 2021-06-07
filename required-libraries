@@ -1,0 +1,19 @@
+Required Libraries for password generator.
+--------------------------------------------------------------
+
+logging: pip install logging
+https://pypi.org/project/logging/
+
+cryptography :pip install cryptography
+https://pypi.org/project/cryptography/
+-------------------------------------------------------------
+------------------------------------------------------------
+Required libraries for file encryptor
+
+pyAes: pip install pyAesCrypt
+https://pypi.org/project/pyAesCrypt/
+
+os: inbuilt
+time: inbuilt
+
+
