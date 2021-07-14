@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Jul 12 12:18:17 2021
 
-@author: LENOVO
-"""
 
 
 #importing_Libs
@@ -21,7 +16,7 @@ number = input("Enter your phone Number : ")
 
 #Getting_API_key
 #---------------------------------#
-key = '96b631a81575445b80627bde637f3082'
+key = 'Put your opemcage Api Key'
 
 
 #Getting_The_Country
